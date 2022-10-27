@@ -8,10 +8,10 @@ public class Rectangle {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введіть першу сторону прямокутника: ");
+        System.out.print("Введіть довжину першої сторони прямокутника: ");
         side1 = scanner.nextDouble();
 
-        System.out.print("Введіть першу сторону прямокутника: ");
+        System.out.print("Введіть довжину другої сторони прямокутника: ");
         side2 = scanner.nextDouble();
 
 
