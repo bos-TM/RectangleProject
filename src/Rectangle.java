@@ -22,11 +22,11 @@ public class Rectangle {
         System.out.println("Периметр прямокутника: " + perimeter);
     }
 
-    static double areaCalculator(double side1, double side2){
-        return side1 * side2;
+    static double areaCalculator(double parSide1, double parSide2){
+        return parSide1 * parSide2;
     }
 
-   static double perimeterCalculator(double side1, double side2) {
-        return 2 * (side1 + side2);
+   static double perimeterCalculator(double parSide1, double parSide2) {
+        return 2 * (parSide1 + parSide2);
     }
 }
